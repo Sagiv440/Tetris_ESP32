@@ -4,7 +4,8 @@ Tetris_ESP32 (University Final Project)
 
 # Description
 Tetris ESP32 is my university final project. It’s a custom-built Tetris machine powered by an ESP-32 microcontroller and controlled using a PS2 game controller.
-Under the hood, the controller runs a MicroPython interpreter that reads, decodes, and executes Python scripts in real time, allowing us to modify, add, or remove code as needed.
+Under the hood, the controller runs a MicroPython interpreter that reads, decodes, and executes Python scripts in real time, allowing us to modify, add, or remove code as needed.<br/><br/>
+Linke to showcase: <a href="https://www.youtube.com/watch?v=B0UTAnWJAis">here</a>
 
 # PS2 Controller
 The PlayStation 2 controller uses the SPI protocol for communication, which the ESP32 supports. This allows us to read and occasionally write data to the controller.
